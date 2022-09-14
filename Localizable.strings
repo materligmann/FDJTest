@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  FDJTest
+
+  Created by Mathias Erligmann on 14/09/2022.
+  
+*/
+ // Home
+
+"searchLeagues" = "Search by leagues";

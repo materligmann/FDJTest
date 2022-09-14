@@ -75,6 +75,7 @@ class DetailViewController: UIViewController {
     }
     
     private func configureDescriptionTextView() {
+        descriptionTextView.isUserInteractionEnabled = false
         descriptionTextView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(descriptionTextView)
         descriptionTextView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 8).isActive = true

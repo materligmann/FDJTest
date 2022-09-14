@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
     
     private func configureSearch() {
         let search = UISearchController()
-        search.searchBar.placeholder = "Search by leagues"
+        search.searchBar.placeholder = NSLocalizedString("searchLeagues", comment: "")
         search.searchBar.delegate = self
         navigationItem.searchController = search
     }
